@@ -1,0 +1,82 @@
+.bg-image{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png);
+    background-size: cover;
+    height:100vh;
+}
+/* Example CSS */
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Crops to fill the area while maintaining aspect ratio */
+    border: 2px solid #ddd;
+  }
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #ff8a00, #da1b60, #5851db, #0f9b8e);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+
+.navbar .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+
+.navbar .cta {
+    background-color: #fff;
+    color: #0f9b8e;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.navbar .cta:hover {
+    background-color: #0f9b8e;
+    color: #fff;
+}
